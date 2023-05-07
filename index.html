@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="//unpkg.com/3d-force-graph"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.152.2/three.min.js"
+      integrity="sha512-R7eFJsc3NlvsTn5hdD/Xvi6FwpFGAoGOa2nBNU89DXAZzXgQQrfhgHVpm5Kh7H9EuCU3Ymexph9z4IiHrq977g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.8.26/Tone.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Infant&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <div id="3d-graph"></div>
+
+    <script type="importmap">
+      {
+        "imports": { "three": "https://unpkg.com/three/build/three.module.js" }
+      }
+    </script>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
