@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "dependencies": {
+    "three": "^0.152.2",
+    "tone": "^14.7.77",
+    "wordwrapjs": "^5.1.0"
+  },
+  "devDependencies": {
+    "vite": "^4.3.5",
+    "webpack": "^5.82.0",
+    "webpack-cli": "^5.1.0"
+  }
+}
