@@ -24,7 +24,7 @@ const sampler = new Tone.Sampler({
 const pentatonic = ['F#1','A2', 'B2', 'C#3', 'E3', 'F#3', 'A3', 'C#4', 'E4'];
 
 let poems = [
-    "sounds of a hearbeat",
+    "sounds of a heartbeat",
     "too many letters",
     "too many characters",
     "too many memories",
