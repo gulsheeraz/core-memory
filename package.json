@@ -1,6 +1,7 @@
 {
   "private": true,
   "dependencies": {
+    "3d-force-graph": "^1.73.6",
     "three": "^0.152.2",
     "tone": "^14.7.77",
     "wordwrapjs": "^5.1.0"
@@ -8,6 +9,12 @@
   "devDependencies": {
     "vite": "^4.3.5",
     "webpack": "^5.82.0",
-    "webpack-cli": "^5.1.0"
+    "webpack-cli": "^5.1.0",
+    "webpack-dev-server": "^5.1.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
   }
 }
