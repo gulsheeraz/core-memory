@@ -1,9 +1,15 @@
 {
   "private": true,
   "dependencies": {
-    "three": "^0.152.2",
-    "tone": "^14.7.77",
+    "3d-force-graph": "^1.74.2",
+    "three": "^0.171.0",
+    "tone": "^14.9.17",
     "wordwrapjs": "^5.1.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "start": "vite preview"
   },
   "devDependencies": {
     "vite": "^4.3.5",

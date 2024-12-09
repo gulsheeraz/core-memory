@@ -2,6 +2,7 @@ import { UnrealBloomPass } from 'three/examples/jsm/postprocessing/UnrealBloomPa
 import wordwrap from 'wordwrapjs';
 import * as THREE from 'three';
 import * as Tone from 'tone';
+import ForceGraph3D from '3d-force-graph';
 
 const sampler = new Tone.Sampler({
     urls: {
@@ -70,7 +71,7 @@ let gData = {
     links: []
 };
 
-for (let i = N; i < N+50; i ++) {
+for (let i = N; i < N + 50; i ++) {
     gData.nodes.push({
         id: i,
         x: getRandomInRange(-1000, 1000),
